@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte sua DRE simplificada</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body>
+    <header>
+        <div><h1 class="title">DRE Simplificada</h1></div>
+    </header>
+    <main>
+        <div class="containerForm">
+            <form> 
+                <label class="itens">Receita bruta:</label>
+                <input type="number" name="receita_bruta"><br>
+                <label class="itens">(-) Deduções e abatimentos:</label>
+                <input type="number" name="deducoes"><br>
+                <label class="itens">(=) Receita liquida:</label>
+                <input type="number" name="receita_liquida"><br>
+                <label class="itens">(-) CPV ou CMV </label>
+                <input type="number" name="cpv_cmv"><br>
+                <label class="itens">(=) Lucro Bruto:</label>
+                <input type="number" name="lucro_bruto"><br>
+                <label class="itens">(-) Despesas com Vendas:</label>
+                <input type="number" name="desp_vendas"><br>
+                <label class="itens">(-) Despesas Administrativas:</label>
+                <input type="number" name="desp_adm"><br>
+                <label class="itens">(-) Despesas Financeiras:</label>
+                <input type="number" name="desp_fin"><br>
+                <label class="itens">(=) Resultado antes IRPJ CSLL:</label>
+                <input type="number" name="res_antes_imps"><br>
+                <label class="itens">(-) Provisões IRPJ E CSLL:</label>
+                <input type="number" name="prov_imps"><br>
+                <label class="itens">(=) Resultado Líquido:</label>
+                <input type="number" name="res_liq"><br>
+            </form>                
+        </div>
+</body>
+
+</html>
