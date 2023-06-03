@@ -1,12 +1,29 @@
 *{
     padding: none;
-    text-decoration: none;    
+    text-decoration: none;
+    background: #1C1C1C;    
+}
+
+.title{
+    text-align: center;
+    color: #FF8C00;
+    font-size: 40px;
 }
 
 .containerForm{
-    border-top: 2px solid #FF4500;
-    margin: top 30px;
-    
+    border-top: 2px solid #FF8C00;
+    justify-content: center; 
+}
+
+.itens{
+    margin-left: 20%;
+    color: #FF8C00;
+    font-size: 20px;
+}    
+
+input{
+    color: #FF8C00;
+    font-size: 20px;
 }
 
 
