@@ -10,20 +10,33 @@
     font-size: 40px;
 }
 
+.container{
+    
+    display: flex;
+    align-items: center;
+}
+
+.contadora{
+    height: 400px;
+    width: 400px;
+}
+
 .containerForm{
     border-top: 2px solid #FF8C00;
-    justify-content: center; 
 }
 
 .itens{
-    margin-left: 20%;
+    margin-right: 15px;
     color: #FF8C00;
     font-size: 20px;
 }    
 
 input{
     color: #FF8C00;
+    border: #FF8C00 solid 2px;
     font-size: 20px;
+    margin-bottom: 15px;
 }
+
 
 
