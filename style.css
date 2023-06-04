@@ -10,19 +10,18 @@
     font-size: 40px;
 }
 
-.container{
-    
+.container{ 
+    border-top: 2px solid #FF8C00;
+    padding: 30px;   
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .contadora{
     height: 400px;
     width: 400px;
-}
-
-.containerForm{
-    border-top: 2px solid #FF8C00;
+    border-radius: 50%;
 }
 
 .itens{
