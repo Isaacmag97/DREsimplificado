@@ -15,7 +15,6 @@
 
 .dre{
     color: #FF8C00;
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
 }
@@ -70,9 +69,6 @@ h2{
     font-family: 'Poppins', sans-serif;
     margin-left: 40px;
 }
-
-
-
 
 .contResult{
     display: flex;
