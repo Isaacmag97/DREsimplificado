@@ -9,11 +9,14 @@
 </head>
 <body>
     <header>
-            <h1 class="title">DRE Simplificada</h1>
+            <h1 class="title">Cálculos financeiros e contábeis </h1>
     </header>
     <main>
         <div class="container">
             <div class="contform">
+                <span>
+                    <h1 class="dre">DRE simplificada</h1>
+                </span>    
                 <label>(=)Receita bruta:</label><br>
                 <input class ="rb" type="number" name="receita_bruta"><br>
                 <label>(-)Deduções e abatimentos:</label><br>
@@ -28,11 +31,14 @@
                 <input class ="df" type="number" name="desp_fin"><br>    
                 <label>(-)Provisões IRPJ E CSLL:</label><br>
                 <input class ="pic" type="number" name="prov_imps"><br>   
-                <button class="resL" onclick="calcular_dre()">(=)Resultado Líquido:</button><br>         
+                <button class="resL" onclick="calcular_dre()">(=)Resultado Líquido:</button><br>
+                <span class="resultDRE">
+                    <h2>R$</h2> 
+                    <p class="resLexp"></p>
+                </span>  
             </div>
             <div class="contResult">
-                <img class="contImg"src="./images/contadora.jpg" alt="ilustração de uma contadora"> <br>
-                <h2>R$</h2>
+                <img class="contImg"src="./images/contadora.jpg" alt="ilustração de uma contadora">      
             </div>
         </div>
     </main>  

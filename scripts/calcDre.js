@@ -5,7 +5,7 @@
     let da = document.querySelector('.da');
     let df = document.querySelector('.df');
     let pic = document.querySelector('.pic');
-    let resultado_liquido = document.querySelector('h2');
+    let resultado_liquido = document.querySelector('.resLexp');
      
 
 function calcular_dre() {
