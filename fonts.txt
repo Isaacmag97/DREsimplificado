@@ -2,3 +2,14 @@ Poppins
 ('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap')
 
 
+
+
+var lbSoma = rlsoma - cc ;
+
+
+
+function lucro_bruto(){
+    var cc = document.querySelector('.cc');
+    var resLb = document.querySelector('.resLb');   
+    resLb.innerHTML = parseFloat(rlSoma) - parseFloat(cc.value)
+}

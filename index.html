@@ -13,36 +13,31 @@
     </header>
     <main>
         <div class="container">
-            <div class="containerForm">
-                <form> 
-                    <label class="itens">(=) Receita bruta:</label>
-                    <input type="number" name="receita_bruta"><br>
-                    <label class="itens">(-) Deduções e abatimentos:</label>
-                    <input type="number" name="deducoes"><br>
-                    <label class="itens">(=) Receita liquida:</label>
-                    <input type="number" name="receita_liquida"><br>
-                    <label class="itens">(-) CPV ou CMV </label>
-                    <input type="number" name="cpv_cmv"><br>
-                    <label class="itens">(=) Lucro Bruto:</label>
-                    <input type="number" name="lucro_bruto"><br>
-                    <label class="itens">(-) Despesas com Vendas:</label>
-                    <input type="number" name="desp_vendas"><br>
-                    <label class="itens">(-) Despesas Administrativas:</label>
-                    <input type="number" name="desp_adm"><br>
-                    <label class="itens">(-) Despesas Financeiras:</label>
-                    <input type="number" name="desp_fin"><br>
-                    <label class="itens">(=) Resultado antes IRPJ CSLL:</label>
-                    <input type="number" name="res_antes_imps"><br>
-                    <label class="itens">(-) Provisões IRPJ E CSLL:</label>
-                    <input type="number" name="prov_imps"><br>
-                    <label class="itens">(=) Resultado Líquido:</label>
-                    <input type="number" name="res_liq"><br>
-                </form>                
+            <div class="contform">
+                <label>(=)Receita bruta:</label><br>
+                <input class ="rb" type="number" name="receita_bruta"><br>
+                <label>(-)Deduções e abatimentos:</label><br>
+                <input class="dd" type="number" name="deducoes"> <br>  
+                <label>(-)CPV ou CMV</label><br>
+                <input class ="cc" type="number" name="cpv_cmv"><br>
+                <label>(-)Despesas com Vendas:</label><br>
+                <input class ="dv" type="number" name="desp_vendas"><br>     
+                <label>(-)Despesas Administrativas:</label><br>
+                <input class ="da" type="number" name="desp_adm"><br>
+                <label>(-)Despesas Financeiras:</label><br>
+                <input class ="df" type="number" name="desp_fin"><br>    
+                <label>(-)Provisões IRPJ E CSLL:</label><br>
+                <input class ="pic" type="number" name="prov_imps"><br>   
+                <button class="resL" onclick="calcular_dre()">(=)Resultado Líquido:</button><br>         
             </div>
-            <div class="containerImg">
-                <img class="contadora" src="./images/contadora.jpg" alt="Profissional contadora">
+            <div class="contResult">
+                <img class="contImg"src="./images/contadora.jpg" alt="ilustração de uma contadora"> <br>
+                <h2>R$</h2>
             </div>
-        </div>    
+        </div>
+    </main>  
+    <script src="./scripts/calcDre.js"></script> 
+    
 </body>
 
 </html>
